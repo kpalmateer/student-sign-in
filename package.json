@@ -1,0 +1,17 @@
+{
+  "name": "student-sign-in-api",
+  "description": "Vue and express app, Student Sign In API",
+  "author": "Kyle Palmateer",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.31.0",
+    "tedious": "^16.0.0"
+  },
+  "devDependencies": {
+    "sqlite3": "^5.1.6"
+  }
+}

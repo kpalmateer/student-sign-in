@@ -12,9 +12,9 @@ let router = express.Router()
 
 // create a router to get info from the database
 // a request to students will run the function defined
-// this function will return the json of the students in order of presence then name
+// this function will return the json of the students in order of presence then starID
 router.get('/students', function (req, res, next) {
-    Student.findAll( {order: ['present', 'name'] }).then( students => {
+    Student.findAll( {order: ['present', 'starID'] }).then( students => {
         return res.json(students)
         // handle errors
     }).catch( err => next(err) )

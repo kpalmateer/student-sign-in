@@ -1,0 +1,109 @@
+
+/home/LogFiles/2023_05_07_10-30-0-145_default_docker.log  (https://student-sign-in-webapp-kylep.scm.azurewebsites.net/api/vfs/LogFiles/2023_05_07_10-30-0-145_default_docker.log)
+2023-05-07T02:19:20.394448000Z     at require (internal/modules/cjs/helpers.js:107:18)
+2023-05-07T02:19:20.394451967Z     at Object.<anonymous> (/node_modules/tedious/lib/tedious.js:59:42)
+2023-05-07T02:19:20.394456536Z     at Module._compile (internal/modules/cjs/loader.js:1114:14)
+2023-05-07T02:19:20.394460383Z     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+2023-05-07T02:19:20.400437551Z npm notice
+2023-05-07T02:19:20.400455214Z npm notice New patch version of npm available! 9.6.4 -> 9.6.6
+2023-05-07T02:19:20.400470282Z npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.6>
+2023-05-07T02:19:20.400475682Z npm notice Run `npm install -g npm@9.6.6` to update!
+2023-05-07T02:19:20.400518642Z npm notice
+/home/LogFiles/2023_05_07_10-30-0-145_docker.log  (https://student-sign-in-webapp-kylep.scm.azurewebsites.net/api/vfs/LogFiles/2023_05_07_10-30-0-145_docker.log)
+2023-05-07T02:19:14.483Z INFO  - docker run -d --expose=8080 --name student-sign-in-webapp-kylep_0_87507049 -e WEBSITE_SITE_NAME=student-sign-in-webapp-kylep -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=student-sign-in-webapp-kylep.azurewebsites.net -e WEBSITE_INSTANCE_ID=9bcf6cec3fed46c7090fdc3fa5c67430c7b41c781e86a0ecbf9de328b07e736c -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=True appsvc/node:14-lts_20230502.1.tuxprod
+2023-05-07T02:19:15.931Z INFO  - Initiating warmup request to container student-sign-in-webapp-kylep_0_87507049 for site student-sign-in-webapp-kylep
+2023-05-07T02:19:21.484Z ERROR - Container student-sign-in-webapp-kylep_0_87507049 for site student-sign-in-webapp-kylep has exited, failing site start
+2023-05-07T02:19:21.511Z ERROR - Container student-sign-in-webapp-kylep_0_87507049 didn't respond to HTTP pings on port: 8080, failing site start. See container logs for debugging.
+2023-05-07T02:19:21.570Z INFO  - Stopping site student-sign-in-webapp-kylep because it failed during startup.
+2023-05-07T02:19:27.052Z INFO  - Starting container for site
+2023-05-07T02:19:27.054Z INFO  - docker run -d --expose=8080 --name student-sign-in-webapp-kylep_0_7a33d70f -e WEBSITE_SITE_NAME=student-sign-in-webapp-kylep -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=student-sign-in-webapp-kylep.azurewebsites.net -e WEBSITE_INSTANCE_ID=9bcf6cec3fed46c7090fdc3fa5c67430c7b41c781e86a0ecbf9de328b07e736c -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=True appsvc/node:14-lts_20230502.1.tuxprod
+2023-05-07T02:19:28.380Z INFO  - Initiating warmup request to container student-sign-in-webapp-kylep_0_7a33d70f for site student-sign-in-webapp-kylep
+Ending Log Tail of existing logs ---
+Starting Live Log Stream ---
+2023-05-07T02:19:27.052Z INFO  - Starting container for site
+2023-05-07T02:19:27.054Z INFO  - docker run -d --expose=8080 --name student-sign-in-webapp-kylep_0_7a33d70f -e WEBSITE_SITE_NAME=student-sign-in-webapp-kylep -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=student-sign-in-webapp-kylep.azurewebsites.net -e WEBSITE_INSTANCE_ID=9bcf6cec3fed46c7090fdc3fa5c67430c7b41c781e86a0ecbf9de328b07e736c -e HTTP_LOGGING_ENABLED=1 -e WEBSITE_USE_DIAGNOSTIC_SERVER=True appsvc/node:14-lts_20230502.1.tuxprod
+2023-05-07T02:19:28.380Z INFO  - Initiating warmup request to container student-sign-in-webapp-kylep_0_7a33d70f for site student-sign-in-webapp-kylep
+2023-05-07T02:19:27.766046246Z    _____
+2023-05-07T02:19:27.766071734Z   /  _  \ __________ _________   ____
+2023-05-07T02:19:27.766076964Z  /  /_\  \\___   /  |  \_  __ \_/ __ \
+2023-05-07T02:19:27.766081141Z /    |    \/    /|  |  /|  | \/\  ___/
+2023-05-07T02:19:27.766085580Z \____|__  /_____ \____/ |__|    \___  >
+2023-05-07T02:19:27.766089447Z         \/      \/                  \/
+2023-05-07T02:19:27.766093845Z A P P   S E R V I C E   O N   L I N U X
+2023-05-07T02:19:27.766097492Z
+2023-05-07T02:19:27.766101860Z Documentation: http://aka.ms/webapp-linux
+2023-05-07T02:19:27.766106479Z NodeJS quickstart: https://aka.ms/node-qs
+2023-05-07T02:19:27.766110827Z NodeJS Version : v14.21.3
+2023-05-07T02:19:27.766114554Z Note: Any data outside '/home' is not persisted
+2023-05-07T02:19:27.766118141Z
+2023-05-07T02:19:28.023288848Z Starting OpenBSD Secure Shell server: sshd.
+2023-05-07T02:19:28.146414465Z Starting periodic command scheduler: cron.
+2023-05-07T02:19:28.181325358Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2023-05-07T02:19:28.184560954Z Build Operation ID: |b0e0ysEC0/k=.7a57852c_
+2023-05-07T02:19:28.517143712Z Environment Variables for Application Insight's IPA Codeless Configuration exists..
+2023-05-07T02:19:28.584319339Z Writing output script to '/opt/startup/startup.sh'
+2023-05-07T02:19:28.615933861Z Running #!/bin/sh
+2023-05-07T02:19:28.615969968Z
+2023-05-07T02:19:28.616002730Z # Enter the source directory to make sure the script runs where the user expects
+2023-05-07T02:19:28.616008440Z cd "/home/site/wwwroot"
+2023-05-07T02:19:28.616012869Z
+2023-05-07T02:19:28.616017007Z export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+2023-05-07T02:19:28.616021495Z if [ -z "$PORT" ]; then
+2023-05-07T02:19:28.616026124Z 		export PORT=8080
+2023-05-07T02:19:28.616031313Z fi
+2023-05-07T02:19:28.616036012Z
+2023-05-07T02:19:28.616040711Z echo Found tar.gz based node_modules.
+2023-05-07T02:19:28.616045680Z extractionCommand="tar -xzf node_modules.tar.gz -C /node_modules"
+2023-05-07T02:19:28.616051591Z echo "Removing existing modules directory from root..."
+2023-05-07T02:19:28.616056961Z rm -fr /node_modules
+2023-05-07T02:19:28.616062031Z mkdir -p /node_modules
+2023-05-07T02:19:28.616066589Z echo Extracting modules...
+2023-05-07T02:19:28.616071729Z $extractionCommand
+2023-05-07T02:19:28.616076989Z export NODE_PATH="/node_modules":$NODE_PATH
+2023-05-07T02:19:28.616082299Z export PATH=/node_modules/.bin:$PATH
+2023-05-07T02:19:28.616087128Z if [ -d node_modules ]; then
+2023-05-07T02:19:28.616106634Z     mv -f node_modules _del_node_modules || true
+2023-05-07T02:19:28.616111573Z fi
+2023-05-07T02:19:28.616115300Z
+2023-05-07T02:19:28.616119519Z if [ -d /node_modules ]; then
+2023-05-07T02:19:28.616123165Z     ln -sfn /node_modules ./node_modules
+2023-05-07T02:19:28.616126822Z fi
+2023-05-07T02:19:28.616130749Z
+2023-05-07T02:19:28.616134697Z echo "Done."
+2023-05-07T02:19:28.619278361Z npm start
+2023-05-07T02:19:28.621911902Z Found tar.gz based node_modules.
+2023-05-07T02:19:28.621935766Z Removing existing modules directory from root...
+2023-05-07T02:19:28.643613358Z Extracting modules...
+2023-05-07T02:19:31.273190486Z Done.
+2023-05-07T02:19:31.927885888Z npm info using npm@9.6.4
+2023-05-07T02:19:31.928175933Z npm info using node@v14.21.3
+2023-05-07T02:19:31.990890686Z
+2023-05-07T02:19:31.990954336Z > student-sign-in-api@1.0.0 start
+2023-05-07T02:19:31.990961689Z > node server.js
+2023-05-07T02:19:31.990966388Z
+2023-05-07T02:19:32.198555324Z npm http fetch GET 200 https://registry.npmjs.org/npm 246ms (cache updated)
+2023-05-07T02:19:32.282578477Z npm http fetch GET 200 https://registry.npmjs.org/npm 293ms (cache updated)
+2023-05-07T02:19:33.201111858Z using environmentproduction
+2023-05-07T02:19:33.258132940Z /node_modules/tedious/lib/connection.js:2257
+2023-05-07T02:19:33.258198713Z         request.error ??= error;
+2023-05-07T02:19:33.258206337Z                       ^^^
+2023-05-07T02:19:33.258211798Z
+2023-05-07T02:19:33.258216567Z SyntaxError: Unexpected token '??='
+2023-05-07T02:19:33.258221266Z     at wrapSafe (internal/modules/cjs/loader.js:1029:16)
+2023-05-07T02:19:33.258225313Z     at Module._compile (internal/modules/cjs/loader.js:1078:27)
+2023-05-07T02:19:33.258231785Z     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+2023-05-07T02:19:33.258235923Z     at Module.load (internal/modules/cjs/loader.js:979:32)
+2023-05-07T02:19:33.258240051Z     at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+2023-05-07T02:19:33.258244509Z     at Module.require (internal/modules/cjs/loader.js:1003:19)
+2023-05-07T02:19:33.258248767Z     at require (internal/modules/cjs/helpers.js:107:18)
+2023-05-07T02:19:33.258253035Z     at Object.<anonymous> (/node_modules/tedious/lib/tedious.js:59:42)
+2023-05-07T02:19:33.258257854Z     at Module._compile (internal/modules/cjs/loader.js:1114:14)
+2023-05-07T02:19:33.258261832Z     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+2023-05-07T02:19:33.264046163Z npm notice
+2023-05-07T02:19:33.264306462Z npm notice New patch version of npm available! 9.6.4 -> 9.6.6
+2023-05-07T02:19:33.264581468Z npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.6>
+2023-05-07T02:19:33.264954008Z npm notice Run `npm install -g npm@9.6.6` to update!
+2023-05-07T02:19:33.267177333Z npm notice
+2023-05-07T02:19:33.675Z ERROR - Container student-sign-in-webapp-kylep_0_7a33d70f for site student-sign-in-webapp-kylep has exited, failing site start
+2023-05-07T02:19:33.691Z ERROR - Container student-sign-in-webapp-kylep_0_7a33d70f didn't respond to HTTP pings on port: 8080, failing site start. See container logs for debugging.
+2023-05-07T02:19:33.696Z INFO  - Stopping site student-sign-in-webapp-kylep because it failed during startup.
